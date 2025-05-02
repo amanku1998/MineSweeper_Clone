@@ -1,0 +1,7 @@
+﻿  Board.cpp
+D:\GIT\MineSweeper_Clone(TextBaseGame)\MineSweeper_Clone\MineSweeper_Clone\Board.cpp(17,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Cell.cpp
+  Game.cpp
+  main.cpp
+  Generating Code...
+  MineSweeper_Clone.vcxproj -> D:\GIT\MineSweeper_Clone(TextBaseGame)\MineSweeper_Clone\x64\Debug\MineSweeper_Clone.exe
