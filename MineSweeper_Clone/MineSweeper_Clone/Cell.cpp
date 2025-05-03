@@ -38,7 +38,12 @@ void Cell:: setAdjacentMines(int count)
 	adjacentMines = count;
 }
 
+void Cell::printMines()
+{
+	cout << (isMine ? "*| " : to_string(adjacentMines) + "| ");
+}
+
 void Cell:: display()
 {
-	cout << (isRevealed ? (isMine ? " *| " : to_string(adjacentMines) + " | ") : " -| ");
+	cout << (isRevealed ? (isMine ? "*| " : to_string(adjacentMines) + " |") : " -|");
 }

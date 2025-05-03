@@ -1,3 +1,4 @@
+#include "Game.h"
 #include <iostream>
 using namespace std;
 
@@ -64,4 +65,7 @@ int main()
 	displayMessage();
 	chooseDifficulty(side, mines);
 
+	Game game(side, mines);
+	game.start();
+	return 0;
 }

@@ -17,5 +17,6 @@ public:
 	void revealeCell(bool revealed);
 	int getAdjacentMines();
 	void setAdjacentMines(int count);
+	void printMines();
 	void display();
 };
